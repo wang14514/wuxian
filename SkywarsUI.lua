@@ -205,4 +205,5 @@ local function findClosestEnemy()
         local hrp = char:FindFirstChild("HumanoidRootPart")
         if hrp then
             local theirTeam = plr:GetAttribute("TeamId")
+
             if myTeam and theirTeam and myTea
